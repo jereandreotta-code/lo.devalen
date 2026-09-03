@@ -1934,3 +1934,17 @@ button {
     transform: translateY(-5px) scale(1.08);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
+
+.logo-image {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
